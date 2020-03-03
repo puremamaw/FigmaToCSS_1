@@ -1,0 +1,163 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(55.22deg, #d95129 -0.02%, #f16521 88.91%);
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+#main-container header {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: calc(78px - 25.7px);
+  padding-top: 25.7px;
+}
+
+#main-container .main-section {
+  flex-grow: 1;
+  width: 50%;
+}
+
+#main-container #left-header {
+  padding-left: 216px;
+  width: calc(50% - 216px);
+  display: flex;
+}
+
+#left-section {
+  background-color: white;
+}
+
+#logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #eb6023;
+  flex-shrink: 1;
+}
+
+#left-menu {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#left-menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4px;
+  line-height: 17px;
+  letter-spacing: 0.312px;
+  color: #525256;
+  margin-top: 8px;
+}
+
+#left-menu ul li {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#left-menu ul li:first-child {
+  margin-right: 55px;
+}
+
+#left-menu ul li:hover {
+  text-decoration: underline;
+}
+
+#main-container #right-header {
+  padding-right: 101px;
+  width: calc(50% - 101px);
+}
+
+#right-header-fix-container {
+  float: right;
+  display: flex;
+}
+
+#right-menu {
+  margin-right: 36.6px;
+}
+
+#right-menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.2px;
+  line-height: 15px;
+  letter-spacing: 0.286px;
+  color: #ffffff;
+  margin-top: 19px;
+}
+
+#right-menu ul li {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#right-menu ul li i {
+  margin-right: 10px;
+}
+
+#right-menu ul li:first-child {
+  margin-right: 36.4px;
+}
+
+#right-menu ul li:hover {
+  text-decoration: underline;
+}
+
+#cog-icon {
+  transform: translateY(3px);
+  margin-right: 10px;
+}
+
+#login-signup-container {
+}
+
+#login-signup-container button {
+  width: 116.4px;
+  height: 48.94px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.2px;
+  line-height: 15px;
+  letter-spacing: -0.231579px;
+  border-radius: 6.912px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+#login-signup-container button i {
+  margin-right: 10px;
+}
+
+#login-signup-container button:first-child {
+  margin-right: 13px;
+}
